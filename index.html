@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <div class="nav__center">
+                <div class="nav__header">
+                    <div class="nav__logo">
+                        <img src="logo.svg" alt="logo">
+                    </div>
+                    <div class="nav__burger" id="menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+                <div class="nav__links-container">
+                    <div class="links">
+                        <div>
+                            <a href="#home" class="nav__link">Home</a>
+                        </div>
+                        <div>
+                            <a href="#about" class="nav__link">About</a>
+                        </div>
+                        <div>
+                            <a href="#portfolio" class="nav__link">Portfolio</a>
+                        </div>
+                        <div>
+                            <a href="#products" class="nav__link">Products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="banner__content">
+                <h1 class="banner__title">Scroll project</h1>
+                <p class="banner__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi placeat
+                    accusamus molestias! Neque sequi architecto voluptas soluta velit, rem eius nulla mollitia deserunt
+                    ducimus corporis culpa itaque vitae quis? Perspiciatis.</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="section__title">
+            Home
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section__title">
+            About
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="section__title">
+            Portfolio
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="section__title">
+            Products
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__content">
+            Copyright Backroads Travel Tours Company <span class="date"></span>. All rights reserved
+        </div>
+    </footer>
+    <a class="scroll-link top-link" href="#top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="app.js"></script>
+</body>
+
+</html>
